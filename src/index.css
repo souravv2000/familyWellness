@@ -1,0 +1,5 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(to right, rgb(157, 157, 111),rgb(152, 101, 101))
+}

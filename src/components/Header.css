@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Head-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    gap: 1.5rem;
+    /* background: linear-gradient(to right, rgb(89, 171, 144), rgb(180, 98, 125)); */
+    background-color: rgb(214, 135, 135);
+    margin-top: 0;
+    /* position: fixed; */
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.title h1 {
+    color: rgb(209, 70, 98);
+}
+
+.title p {
+    color: rgb(81, 79, 79);
+    font-weight: bold;
+}
+
+.navbar {
+    height: 4rem;
+    background-color: rgb(85, 125, 91);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 5rem;
+    padding: 0 3rem;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#home {
+    background-color: rgb(148, 107, 32);
+    transition: all 0.3s ease-in-out;
+}
+
+#home:hover {
+    background-color: brown;
+}
+
+li:hover {
+    background-color: brown;
+    color: white;
+}
